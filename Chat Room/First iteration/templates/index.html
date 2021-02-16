@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <!--External js files -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.1/socket.io.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <!--local js file-->
+        <script src="{{ url_for('static', filename= 'index.js') }}"></script> 
+        <title>Chat Room</title>
+    </head>
+
+    <body>
+        
+        <!-- Un-odored list we will add to-->
+        <ul id="chatArea"></ul>
+
+        <hr>
+        
+        <input id="input-field" placeholder="Message">
+        <button id = "send-button">Send</button>
+
+    </body>
+
+</html>
