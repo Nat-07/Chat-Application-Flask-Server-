@@ -122,3 +122,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#vscode folder
+*.vscode
+
+#database folder
+*/0. DATABSE
+
+#ds store file
+*.DS_Store
